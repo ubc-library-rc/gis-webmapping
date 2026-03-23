@@ -34,11 +34,15 @@ Below are examples of webmap made with uMap, Google MyMaps, and Leaflet.
 
 
 ## BEFORE THE WORKSHOP
-1. Download and unzip the workshop data folder to a location on your physical computer, such as Desktop or Downloads.
+1. Download and **unzip** the workshop data folder to a location on your physical computer, such as Desktop or Downloads.
 
-2. Create a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. 
+[Download Data](./webmapping-workshop.zip){: .btn .btn-blue }
 
-3. Create a [GitHub](https://github.com/) Account. 
+2. To make your life easier while viewing or editing code, it's good to use a [source code editor](https://en.wikipedia.org/wiki/Source_code_editor). This workshop will use [Visual Studio Code](https://code.visualstudio.com/download), but other editors like [Notepad++](https://notepad-plus-plus.org/) and [Sublime Text](https://www.sublimetext.com/3) will work similarly. 
+
+3. Create a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. 
+
+4. Finally, create a [GitHub](https://github.com/) account. 
 
 
 ### Data
