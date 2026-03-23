@@ -155,4 +155,4 @@ Then, head to the share icon in the left-hand menu.
  Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
 
 
-- share, embed, download - customomize embed too. 
+<!-- - share, embed, download - customomize embed too.  -->
