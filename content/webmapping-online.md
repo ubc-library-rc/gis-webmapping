@@ -7,9 +7,11 @@ has_children: true
 # Online Platforms for Web Mapping
 Online platforms offer browser-based tools for making web maps. This option requires *no coding* and poses the lowest learning barrier.  We will now introduce 2 online platforms for webmapping: [Google MyMaps](https://www.google.com/maps/about/mymaps/) and [uMap](https://umap.openstreetmap.fr/en/). After demonstrating how to add and style layers in each interface, you will then have a chance to choose one to make a map with. 
 
+
 To Do
 {: .label .label-green }
 Before we begin, please ensure you have a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. Both accounts are free to make, and the platforms we will use are free as well. 
+
 ----
 
 
@@ -38,7 +40,7 @@ We recommend Google as a web mapping platform for its *Google MyMaps service  on
 
 
 
-<iframe style="width: 100%; height: 520px; border: 0;" allowfullscreen src="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42"></iframe><p><a href="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42" target="_blank">See full screen</a></p>
+<iframe style="width: 100%; height: 520px; border: 0;" allowfullscreen src="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42"></iframe><sub><a href="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42" target="_blank">See full screen</a></sub>
 
 
 <Br>

@@ -11,7 +11,8 @@ This workshop explores web maps (aka webmaps) and web mapping (aka webmapping). 
 
 Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map in a code editor in order to understand how the various components of a web map work together. By the end of the workshop, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
 
-<br>
+----
+
 
 ## Before the Workshop
 1. Download and **unzip** the workshop data folder to a location on your physical computer, such as Desktop or Downloads.
@@ -20,7 +21,8 @@ Each of these methods of web mapping has its advantages and disadvantages which 
 2. To make your life easier while viewing or editing code, it's good to use a [source code editor](https://en.wikipedia.org/wiki/Source_code_editor). This workshop will use [Visual Studio Code](https://code.visualstudio.com/download).
 <!-- , but other editors like [Notepad++](https://notepad-plus-plus.org/) and [Sublime Text](https://www.sublimetext.com/3) will work similarly.  -->
 
-3. Create a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. Finally, create a [GitHub](https://github.com/) account. We will use GitHub to host our web map powered by Leaflet. 
+3. Create a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. 
+<!-- Finally, create a [GitHub](https://github.com/) account. We will use GitHub to host our web map powered by Leaflet.  -->
 
 
 ### Data
@@ -32,7 +34,6 @@ This data is licensed under the [Open Government Licence - Toronto](https://open
 
 
 
-<br>
 
 <!-- - [Green Spaces](https://open.toronto.ca/dataset/green-spaces/)
 - [City Wards](https://open.toronto.ca/dataset/city-wards/)
