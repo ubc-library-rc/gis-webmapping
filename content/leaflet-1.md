@@ -39,6 +39,6 @@ If you installed the Live Server extension to Visual Studio Code, in the blue ri
 
   - **Note:** Depending on your computer’s operating system, you may need to hit Ctrl + S to save your document edits before Live Server will update to reflect your changes. Live Server alleviates the need to constantly refresh your browser each time you make a change.
 
-![go live](./images/go-live_20250618.png)
+![go live](./images/go-live.png)
 
 Because we will be working back and forth between the browser page and the code editor, it’s helpful to arrange your computer screen(s) in a way where you can either see both windows at once or are able to toggle between the two. This way, every time you modify the HTML code you can see the changes in your browser. You’ll also want to have workshop website accessible.
