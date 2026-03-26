@@ -9,8 +9,7 @@ Online platforms offer browser-based tools for making web maps. This option requ
 
 To Do
 {: .label .label-green }
-Before we begin, please ensure you have an account with both Google and uMap. These are both free accounts. 
-
+Before we begin, please ensure you have a [uMap](https://umap.openstreetmap.fr/en/) account. If you don't already have a Google account, creating one for the purposes of using MyMaps is optional. Both accounts are free to make, and the platforms we will use are free as well. 
 ----
 
 
@@ -46,9 +45,10 @@ We recommend Google as a web mapping platform for its *Google MyMaps service  on
 
 #### uMap Advantages and Disadvantages
 {: .no_toc}
-- uMap is very easy to use, and has ample customization options. It is an entirely web-based interface and requires no coding or prior expertise. 
-- can export to code
-- add pros and cons 
-- embed images in popups
-- more style options
-- more customizable options 
+- entirely web-based interface and requires no coding or prior expertise
+- uMap is very easy to use, posing a low barrier to learning
+- ample customization options and aesthetic output
+- embed images in pop-ups
+- share via link, embed elsewhere, or export entire map as code
+- thematically visualize your data 
+- collaborative editing 
