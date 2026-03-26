@@ -7,7 +7,7 @@ nav_order: 1
 # What is a web map? 
 {: .no_toc}
 
- Web maps are dynamic, interactive maps that are hosted on the web and can be shared to others via a link. Web maps are ubiquitous in our everyday: for example, you likely use a web map on your phone to navigate around the city, track an online order, ride, or bus, and check the weather forecast near you. 
+ Web maps are dynamic, interactive maps that are hosted on the web and can be shared to others via a link. Web maps are ubiquitous in our everyday: for example, you likely use a web map on your phone to navigate around the city or plan hikes, track an online order, ride, or bus, and check the weather forecast near you. 
 
  Web maps differ from digital maps, which are simply static maps derived from a computer and produced/published/stored in a digital format (such as an image or PDF). (The term "born digital" is often used to describe these kind of maps.) Examples of digital maps include scans of historical maps, or maps embedded online as graphics. 
  
