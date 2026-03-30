@@ -94,7 +94,7 @@ Open the **Layer Properties** of the Public Art layer.
 
 <img src="./images/umap14.png" style="width:100%">
 
-Change from default point layer to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art have a size or quantity value. To create a choropleth map, you would need to be working on a polygon layer. 
+You can change the type of layer - that is, how your (point) layer is rendered - from default to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art have a size or quantity value. To create a choropleth map, you would need to be working on a polygon layer. 
 
 Let's change to clustered. You can then adjust the clustering radius. When you're finished, collapse cluster settings. 
 
