@@ -1,7 +1,7 @@
 ---
 layout: default
-title: uMap demo
-parent: Webmapping Online
+title: uMap 
+parent: Part 1 - Webmapping Online
 nav_order: 2
 ---
 
@@ -21,12 +21,13 @@ nav_order: 2
 
 ## Creating a new map
 
-1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/) and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
+1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/){:target="_blank"} and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
 <img src="./images/umap1.png" style="width:90%">
 <br><br>
 2. Click **Create a map**. <br>
 <img src="./images/umap2.png" style="width:90%">
 <br><br>
+
 
 ### The Interface 
 {: .no_toc}
@@ -53,10 +54,11 @@ Use the **Search location** tool to search for Toronto. This will center your ba
 <img src="./images/umap7.png" style="width:100%">
 <br><br>
 
-<br>
+
 
 **The toolbar on the right allows you to add and manipulate data.** The first three tools allow you to add markers, lines, and polygons directly to your map. If you just want a few shapes or drop-pins, no need to create a data layer elsewhere first. However, if you *have* datasets you want to add to the map, you can upload them.
 
+<br>
 
 
 
@@ -65,7 +67,7 @@ Use the **Search location** tool to search for Toronto. This will center your ba
 
 Use the **Importa data** tool <img src="./images/umap9.png" style="width:5%"> to add datasets to your map. 
 
-> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `webmapping-workshop/Online-webmapping/`. 
+> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `webmapping-workshop/online-webmapping/`. 
 
 Notice that the drop-down menu of "Choose the format" indicates what formats are acceptable for upload. Many more than in Google MyMaps! So, while geoJSON layers were provided for you, you could re-use the CSV and KML files from Google MyMaps if you'd like. 
 
@@ -79,31 +81,32 @@ Once uploaded, **save your draft** again.
 ## Manage Layers
 
 You can manage your layers, including toggling their visibility, updating their symbology, and configuring their pop-ups from the **Manage layers** tool in the right-hand toolbar. 
+
 <img src="./images/umap12.png" style="width:100%">
 
-The eyeball icon allows you to toggle layer visibility. The table icon allows you to view the tabular data associated with each layer. The magnifying glass icon allows you to zoom to a layer's extent. The pencil icon allows you to edit a layer. Finally, the trashcan allows you to remove a layer altogether. You are also able to add a new layer. 
-
 <img src="./images/umap13.png" style="width:50%">
+
+The **eyeball icon** allows you to toggle layer visibility. The **table icon** allows you to view the tabular data associated with each layer. The **magnifying glass icon** allows you to zoom to a layer's extent. The **pencil icon** allows you to edit a layer. Finally, the **trashcan icon** allows you to remove a layer altogether. You are also able to add a new layer. 
+
+<br>
 
 ### Layer Properties 
 
 Click the pencil icon to edit a layer. This will take you to the **Layer Properties**, where you can give your layer a title if you uploaded it without one. 
 
-Open the **Layer Properties** of the Public Art layer. 
+Open the **Layer Properties** of the Public Art layer.
 
 
 <img src="./images/umap14.png" style="width:100%">
 
 You can change the type of layer - that is, how your (point) layer is rendered - from default to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art have a size or quantity value. To create a choropleth map, you would need to be working on a polygon layer. 
 
-Let's change to clustered. You can then adjust the clustering radius. When you're finished, collapse cluster settings. 
+> Let's change this map to **clustered**. You can then adjust the clustering radius. When you're finished, collapse the cluster settings. 
 
 
 Now, expand **Shape properties**. Here, you can customize the icon color *and* shape. Remember to **Save your map**.
 
 <img src="./images/umap15.png" style="width:100%">
-
-
 
 
 <br>
@@ -113,19 +116,22 @@ Now, expand **Interaction options**. As it stands, if you click on any public ar
 
 <img src="./images/umap16.png" style="width:100%">
 
+
 Under Interaction options, expand the option **Popup content template**. If you click on the information icon, you'll see you can use "placeholders" to call the values of various attributes. What's currently there doesn't change anything because "name" and "description" don't refer to any column headings in Public Art - umap is case sensitive!!  
 
 <img src="./images/umap17a.png" style="width:50%">
+
 <img src="./images/umap17.png" style="width:100%">
 
 <br>
 Then, if you wanted to bold the Title and add a label to the Artist, you could update your pop-up entry to the following:
 
-<img src="./images/umap17b.png" style="width:50%">
-<img src="./images/umap18.png" style="width:100%">
+<img src="./images/umap17b.png" style="width:80%">
 
-<!-- {{{ImageURL}}}
-[[{link_url}|{{{ImageURL}}}]]  -->
+> Add as many fields to your pop-up as you'd like. For instance, you could add description. Then, **practice updating heritage districts**. 
+
+
+<img src="./images/umap18.png" style="width:100%">
 
 <br>
 Add as many fields to your pop-up as you'd like. For instance, you could add description. Then, practice updating heritage districts. 
@@ -133,8 +139,10 @@ Add as many fields to your pop-up as you'd like. For instance, you could add des
 
 
 ## Updating Basemap 
-You can customoize your tile layers
+You can also customize your "tile layers" or basemap. Choose a basemap that doesn't overwhelm your data layers. Remember - visual hierarchy applies to webmapping too! 
+
 <img src="./images/umap20.png" style="width:100%">
+
 
 <br>
 
@@ -144,12 +152,13 @@ When you're happy with your web map, save your draft and change the visibility i
 Update visibility to Everyone then save your map. 
 
 
-
 Then, head to the share icon in the left-hand menu.
 
 <img src="./images/umap19.png" style="width:100%">
 
  Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
 
+*Congratulations on making a webmap with uMap!*
 
+<!--ADD DOCUMENTATION ABOUT EMBEDDING VIDEOS-->
 <!-- - share, embed, download - customomize embed too.  -->

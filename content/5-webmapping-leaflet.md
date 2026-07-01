@@ -1,0 +1,87 @@
+---
+layout: default
+title: Part 2 - Webmapping with Leaflet
+nav_order: 3
+has_children: true
+---
+# Webmapping with Code Library Leaflet
+
+<img src="./images/leaflet-logo.png" alt="Leaflet Logo" style="margin: auto; width:35%"/>
+
+[Leaflet](https://leafletjs.com/){:target="_blank"} is a set of instructions that your web browser or mobile device uses to display maps and let you interact with them. For example, when you double click your mouse on a map, leaflet tells your browser to zoom in. Leaflet defines the style of your map and includes things like zoom controls, attribution links, pop-ups, colors for markers and more. Leaflet is made up of only 38kb of Javascript, so it is really fast and lightweight - meaning browsers don’t have to work very hard to load it. Leaflet is open source, free, and hugely customizable. And, because of this, Leaflet is widely used. There are lots of alternatives to Leaflet, but most require an API key to use.
+
+
+## As code
+Leaflet consists of JavaScript and CSS code libraries which power the ways your web browser interprets and interacts with geospatial data & displays colors and style. For instance, when you double click a map to zoom in, Leaflet is at work. When you add data to your map, Leaflet assigns it a default color. And because Leaflet is open-source, the code is hugely customizable and extensible. This means you can re-mix the code all you want — which you will do in this workshop. [Here are some examples](https://leafletjs.com/plugins.html){:target="_blank"} of Leaflet-based plugins to give you some idea of the variety of added functionality that comes from the community of developers.
+
+<!-- 
+```html
+<html>
+
+<head>
+  <title>Leaflet map</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+  <div id="mapid" style="height: 100%;"></div>
+  <script>
+    var mymap = L.map('mapid').setView([45.50, -73.58], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(mymap);
+  </script>
+</body>
+
+</html>
+``` -->
+
+
+
+## In a browser
+Take a look at this basic Leaflet map example. You can zoom in, pan around, etc. It’s meant to be displayed in your internet browser or a mobile application, so it loads and responds quickly.
+
+<iframe src="./reference/basic-map.html" style="width:100%; height:520px; border:none;"> </iframe>
+
+
+
+#### Leaflet Advantages  ⇡
+{: .no_toc}
+ - Leaflet is free and open-source. For this reason, Leaflet is widely used. 
+ - As an open-source code library, Leaflet is hugely customizable. This means you can re-mix the code all you want. 
+ - Leaflet is beginner friendly, though you do need to interact with code in order to build your map.
+ - Hugely customizable. Leaflet-based plugins to give you some idea of the variety of added functionality that comes from the community of developers. 
+
+
+#### Leaflet Disadvantages ⇣
+{: .no_toc}
+ - You'll need to work with code in a code editor. This can introduce a semi-steep learning curve, but you can truly create a basic webmap in a few hours with no prior knowledge. 
+ - You'll need a place to store your map and map data. Github can work. Think about how you'll be displaying your end product. Will it be embedded on a website? 
+
+
+
+<br>
+
+
+
+----
+
+#### Resources for Webmapping with Leaflet
+- UC Davis tutorial on [Building web maps with Leaflet](https://ucdavisdatalab.github.io/workshop_web_maps/){:target="_blank"} 
+- You may want to add a legend or title, cluster data, or further style your map. While [Leaflet Docs](https://leafletjs.com/reference.html){:target="_blank"} and [Leaflet Tutorials](https://leafletjs.com/examples.html){:target="_blank"} document how to do much of this, there is a wealth of documentation online from people tweaking given code to meet their specific needs. So, if you have something specific in mind, we recommend you do an internet search to see what's out there you could draw inspiration (and often code) from. 
+- [Adding a popup to Leaflet](https://ucdavisdatalab.github.io/workshop_web_maps/add-a-popup.html){:target="_blank"}
+- [Customizing icons in Leaflet](https://leafletjs.com/examples/custom-icons/){:target="_blank"}
+- [Creating a choropleth map with Leaflet](https://leafletjs.com/examples/choropleth/){:target="_blank"}
+- [Grouping layers](https://leafletjs.com/examples/layers-control/){:target="_blank"}
+- [Creating heatmaps with Leaflet](https://leafletjs.com/plugins.html#heatmaps){:target="_blank"}
+- [Leaflet plugins](https://leafletjs.com/plugins.html){:target="_blank"} offer extended functionality, making leaflet hugely customizable. Below are some plugins to give you some idea of the variety of added functionality that comes from the community of developers. 
+- Tutorial on [adding side panels/menus to a Leaflet web map](https://unbam.github.io/Leaflet.SlideMenu/){:target="_blank"}; See [here](https://github.com/noerw/leaflet-sidebar-v2){:target="_blank"} for another example.
+- [Overlay layers control](https://leafletjs.com/examples/layers-control/){:target="_blank"}
+
+
+

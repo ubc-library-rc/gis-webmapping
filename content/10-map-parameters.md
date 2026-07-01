@@ -1,17 +1,19 @@
 ---
 layout: default
 title: 4. Map Parameters
-nav_order: 4
-parent: Hands on with Leaflet
+nav_order: 5
+parent: Part 2 - Webmapping with Leaflet
 ---
 
 # Map Parameters: A closer look at the script
 <br>
-The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/). There are JavaScript libraries for ALL SORTS of things, and we’re using Leaflet as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
+
+The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/){:target="_blank"}. There are JavaScript libraries for *all sorts* of things, and we’re using [Leaflet](https://leafletjs.com/){:target="_blank"} as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
 
 In the last few pages, we got to see the boilerplate basemap in action, learned about the map tiles that are dynamically loaded zoom in and out, and familiarized ourselves with the anatomy of the HTML document that's powering this interactivity. Now, let's take a closer look at the script element to understand how the boilerplate basemap works. 
 
 Everything you add to the boilerplate during this workshop will be within the `<script> </script>` tags. Let's take a closer look at what's already there and modify each parameter to see how customizable even the basemap can be. 
+
 
 
 ```js
@@ -28,12 +30,14 @@ Everything you add to the boilerplate during this workshop will be within the `<
 
 ----
 
+
 ## Map Variable
 
 ```js
 var mymap = L.map('mapid').setView( [45.65, -73.58], 9);
 ```
 The first line is our map variable. A JavaScript variable is something that holds values. Here, the `mymap` variable holds values for the starting view location and zoom level of the map upon initial load.
+
 
 
 ## Tile Layer 
@@ -61,6 +65,8 @@ Modify the coordinate pair so your map loads over Toronto. If Live Server is ena
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
+Copy/paste
+{: .label .label-purple }
 ```js
  var mymap = L.map('mapid').setView([43.69, -79.39], 9);
 ```
@@ -68,11 +74,9 @@ If you don't see a map like the one above, undo your edit in your source code ed
 ## Zoom Levels
 Your map currently loads at a zoom level which requires a user to zoom in immediately toward Toronto. Ideally, if this map is meant to show information for Toronto, it would load as close to the city as possible, but not so close that different screen dimensions cut off parts such as Stanley Park. So, we'll need to change the loading zoom level.
 
-
 To Do
 {: .label .label-green }
 Looking again at our <code>mymap</code> variable, the loading view is set at the coordinate pair over Toronto now, and at a zoom level of 9. Try increasing or decreasing the zoom level until your map loads on Toronto. Note that in Leaflet, you must choose discreet zoom levels and whole numbers. 
-
 
 You should see this if you save and refresh your map:
 
@@ -81,16 +85,17 @@ You should see this if you save and refresh your map:
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
+Copy/paste
+{: .label .label-purple }
 ```js
   var mymap = L.map('mapid').setView([43.69, -79.39], 12);
 ```
 
 
-## Change Base Map
+## Change the Tile Layer, aka Basemap
 
-Suppose we want our data to stand out from the green base map more than it does now. One thing we can do is change the source of the map tiles to one that has a more appropriate style for our blue data. As mentioned earlier, there are several out-of-the-box options to choose from with a variety of different styles. [This page lists a number of different map tile sources](https://leaflet-extras.github.io/leaflet-providers/preview/), and provides the text to paste into our map document for each one (minus the important <code>.addTo(mymap)</code> which needs to be inserted before the final semi-colon). **some of these sources require an access token or api-key, so you won't be able to use them unless you sign up for an account**. 
+Suppose we want our data to stand out from the green base map more than it does now. One thing we can do is change the source of the map tiles to one that has a more appropriate style for our blue data. As mentioned earlier, there are several out-of-the-box options to choose from with a variety of different styles. [This page lists a number of different map tile sources](https://leaflet-extras.github.io/leaflet-providers/preview/){:target="_blank"}, and provides the text to paste into our map document for each one (minus the important <code>.addTo(mymap)</code> which needs to be inserted before the final semi-colon). **some of these sources require an access token or api-key, so you won't be able to use them unless you sign up for an account**. 
 
-    
 The boilerplate basemap works well for this workshop, but try playing around with different tile layers. 
 
 
@@ -98,7 +103,8 @@ To Do
 {: .label .label-green }
 Experiment with different basemaps! If you don't know where to start or keep getting a syntax error, try copying one of the code blocks below and replacing the existing map tile variable in your HTML document with it.
 
-
+Copy/paste
+{: .label .label-purple }
 ```js
 var OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -124,17 +130,7 @@ var Stadia_Outdoors = L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{
 }).addTo(mymap);
 ```
 
-<!-- ```js
-var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
-	minZoom: 0,
-	maxZoom: 20,
-	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	ext: 'png',
-      scrollWheelZoom: false,
-    }).addTo(mymap);
-```     -->
 
-If it all went as planned, you should see the new basemap rendered by your browser. 
-
+If all went as planned, you should see the new basemap rendered by your browser. 
 
 <img src="./images/leaflet5.png" style="width:100%">

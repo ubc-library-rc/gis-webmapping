@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Google MyMaps demo
-parent: Webmapping Online
+title: Google MyMaps
+parent: Part 1 - Webmapping Online
 nav_order: 1
 ---
 # Google MyMaps Demo
@@ -19,10 +19,9 @@ nav_order: 1
 -----
 
 ## Creating and naming a new map
-1. Go to [Google MyMaps](https://www.google.com/maps/d/u/0/). Create and/or login to your Google Account. 
-<br><br>
-
+1. Go to [Google MyMaps](https://www.google.com/maps/d/u/0/){:target="_blank"}. Create and/or login to your Google Account. 
 <img src="./images/mymaps0.png" style="width:100%">
+<br><br>
 
 2. Click CREATE A NEW MAP  
  <img src="./images/mymap-demo1.png" style="width:25%">
@@ -32,14 +31,14 @@ nav_order: 1
  <img src="./images/mymap-demo2.png" style="width:100%">
 <br><br>
 
-4. The interface is quite intuitive. In the top left-hand corner, there is a white box. The first thing you may notice is that your map is currently Untitled. Simply click where it currently says "Untitled Map" and replace with your title. 
+4. The interface is quite intuitive. In the top left-hand corner, there is a white box. The first thing you may notice is that your map is currently Untitled. Simply click where it currently says "Untitled map" and replace with your title. 
+> - Let's **title** our map "Public Art in Toronto".
+> - In the **Description**, add a data source statement such as: "Data curtesy of the City of Toronto Open Data portal, and licensed under the Open Government Licence – Toronto."
 
 <img src="./images/mymap-demo3.png" style="width:40%; padding-left: 20px;">
 <br>
 
-- Let's **title** our map "Public Art in Toronto".
 
-- In the **Description**, add a data source statement such as: "Data curtesy of the City of Toronto Open Data portal, and licensed under the Open Government Licence – Toronto."
 
 <br>
 
@@ -59,7 +58,6 @@ Each layer of your map will initially be untitled. You can change the name any t
 
 <br>
 
-<!-- *6*{: .circle .circle-purple} -->
 
 ### Adding simple markers, shapes and lines
 You can add stand-alone points and lines using the "Add marker" and "Draw a line" tools. Adding a marker will add a point to the current Untitled layer. You can always add a new layer, then drag markers between layers to stay organized. 
@@ -76,11 +74,14 @@ Alternatively, you can search for a place in the search bar, then choose to add 
 
 ### Importing Data 
 
-Now let's upload a dataset to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the workshop data folder. It will be in the Online-webmapping subfolder of `webmapping-workshop`.
+Now, let's upload a dataset to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the workshop data folder. It will be in the subfolder `webmapping-workshop/online-webmapping`.
 
 <img src="./images/mymap-demo5.png" style="width:40%; padding-left: 20px;">
 
+<br>
+
 You will be prompted to "Choose columns to position your placemarks". This means Google is asking you which columns it should use to locate each feature. If you scroll down, you'll see that latitude and longitude have already been identified as the spatial component of your dataset. Click **Continue**. 
+
 
 <img src="./images/mymap-demo6.png" style="width:45%; padding-left: 20px;">
 
@@ -92,39 +93,39 @@ Next, you will be prompted to "Choose a column to title your markers". Here, you
 
 <br>
 
-Click "Add layer" <img src="./images/mymap-demo8.png" style="width:10%"> and repeat the process to import and add `heritage-conservation-districts.kml` to your map. You likely won't need to prompt Google as to which columns contain spatial information as KML is a spatial data file already. 
+Click "Add layer" <img src="./images/mymap-demo8.png" style="width:10%"> and repeat the process to import and add `heritage-conservation-districts.kml` to your map. You likely won't need to prompt Google as to which columns contain spatial information as KML is a spatial data file already.
 
 <img src="./images/mymap-demo9.png" style="width:100%">
 
 <br>
 
-## Modifying Layers
+## Renaming Layers
 To select a layer, simply click on the layer name. You can modify each layer by clicking the three dots to the right of the layer name.   
 
-To Do
-{: .label .label-green }
-Check and un-check the box beside each layer to hide/show the layer. 
+
+> * Check and un-check the box beside each layer to hide/show the layer. 
 
 If you haven't made a name for each Untitled layer before importing data, layers will automatically take on the name of your uploaded file. To change the name of a layer, simply double-click the existing name. Alternatively, you can click the three dots to the right of the layer name, and choose "Rename this layer". 
 
-> Let's rename each layer to "Public Art" and "Heritage Conservation Areas" respectively. 
+> * Let's rename each layer to "Public Art" and "Heritage Conservation Areas" respectively. 
 
 <img src="./images/mymap-demo10.png" style="width:100%">
 
 <br>
 
-### Styling Layers 
+## Styling Layers 
 Right now, the drop-pins representing Public Art are uniformly styled. This means that each icon is same color, size, shape, etc.  You can change the styling by grouping places/datapoints in the following ways:
 
 - **Uniform style** What we have now. All points are styled the same. 
 - **Sequence of numbers** Data points are each assigned a number.
-- **Individual styles** Allows you to manually adjust the color and icon for each occurrence. After setting "Group places by" "Individual styles", simply over over any place and click the grey paint icon that appears to the right. 
-- **Style by data column** Will assign a random color to occurrence of the column selected. 
+- **Individual styles** Allows you to manually adjust the color and icon for each occurrence. After setting "Group places by" to "Individual styles", simply hover over any place and click the grey paint icon that appears to the right. 
+- **Style by data column** Will assign a random color to occurrence of the column selected.  
 
 We can change the styling of a layer by clicking the paint-roller icon. 
 <img src="./images/mymap-demo11.png" style="width:40%"><img src="./images/mymap-demo12.png" style="width:40%">
 
-> change style = style by `Medium`. notice - lots of steel etc. then style by `WARD_FULLNAME`. 
+> * Change style to style by `Medium`.
+> * Then, change style to style by `WARD_FULLNAME`. 
 
 <img src="./images/mymap-demo13.png" style="width:100%">
 <img src="./images/mymap-demo14.png" style="width:100%">
@@ -132,7 +133,7 @@ We can change the styling of a layer by clicking the paint-roller icon.
 
 <br>
 
-Furthermore, you can continue to edit the styling individual points/places even after they are styled by data column. For example, you can change both the ICON and the Color. however, be careful not to set the color of two categories the same unless they are related. 
+You can continue to edit the styling individual points/places even after they are styled by data column. For example, you can change both the **Icon** and the **Color**. However, be careful not to set the color of two categories the same unless they are related. 
 
 <img src="./images/mymap-demo15.png" style="width:40%">
 <img src="./images/mymap-demo16.png" style="width:40%">
@@ -141,42 +142,38 @@ Furthermore, you can continue to edit the styling individual points/places even 
 
 Now let's look at Heritage Conservation Districts. Uncheck public art so we can focus on the other layer. Currently, its set to individual styles. 
 
-{: .label .label-green }
-Change to uniform style, then update the color to something else. 
+>  Change to uniform style, then update the color to something else.
+
 <img src="./images/mymap-demo17.png" style="width:100%">
 
 
-Now turn the Public Art layer back on. 
-
+> Now turn the Public Art layer back on. 
 
 <br>
 
-### Layer interactivity & popups
+
+## Layer interactivity + popups
 
 If you click on a drop-pin for public art, lots comes up. Not all of this is important to the viewer. From Layer options, you can open the tabular data associated with this layer. 
 
-<img src="./images/mymap-demo18.png" style="width:50%">
+While we can edit this table, adding and deleting columns, there is a better way to customize what fields/columns are included in the pop-up that doesn't include deleting/modifying our original dataset.
 
-While we can edit this table, adding and deleting columns, there is a better way to customize what fields/columns are included in the pop-up that doesn't include deleting/modifying our original dataset. 
+<img src="./images/mymap-demo18.png" style="width:50%"> 
 
-To edit what fields are visible in the popup, simply open a pop-up for any feature in a layer. Then, click edit. 
+> To edit what fields are visible in the popup, simply open a pop-up for any feature in a layer. Then, click **edit**. 
 
 <img src="./images/mymap-demo19.png" style="width:100%">
 
-<br>
-
-Now, uncheck the fields you don't want. Then press save. 
+> Now, uncheck the fields you don't want. Then click **save**. 
 
 <img src="./images/mymap-demo20.png" style="width:50%">
 
-<br>
-
-Note that if you want to change the label, like WARD_FULLNAME to simply "Ward", you'll have to duplicate the column WARD_FULLNAME in the edit table mode and then give it the desired name. then you can go back into editing popups, and select your new column. 
+Note that if you want to change the label, like `WARD_FULLNAME` to simply "Ward", you'll have to duplicate the column `WARD_FULLNAME` in the edit table mode and then give it the desired name. then you can go back into editing popups, and select your new column. 
 
 <br>
 
 ### Adding Images to Pop-ups
-You can add images to individual pop-ups using the camera icon from within the pop-up. Adding images individually - camera icon when click a popup. 
+You can add images individually by clicking on the camera icon in an open popup. Unfortunately you have to add images one by one. in uMap however, you can add images for all features in a layer so long as the layer's tabular data has a column with a link to each feature's image. 
 
 
 ## Basemaps 
@@ -189,3 +186,8 @@ Finally, below your layers, there is an option to change your Basemap from a sel
 When you're ready to share your map, simply click the Share option at the top of your layers. You will be prompted to adjust the visibility settings, and given a shortened link to your new Google MyMap!
 
 
+<br>
+
+#### Resources for working with Google Maps
+- Tutorial on [Google Maps and Google Earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth){:target="_blank"} from the [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping){:target="_blank"}
+- Tutorial on [Point Map with Google My Maps](https://handsondataviz.org/mymaps.html){:target="_blank"} from [Hands-On Data Visualization](https://handsondataviz.org/){:target="_blank"} by Jack Dougherty & Ilya Ilyankou
