@@ -1,11 +1,9 @@
 # Name of workshop
 ### UBC Library Research Commons
 
-:heavy_exclamation_mark: This workshop is in development and not yet complete. :heavy_exclamation_mark:    
 
-Description: This workshop provides an introduction to webmapping using both online platforms and code powered by Leaflet. 
+Description: This 2-part workshop series explores web maps (aka webmaps) and web mapping (aka webmapping) as a means of dynamically and interactively visualizing geospatial data. Part 1 will focus on platforms for webmapping online, whereas Part 2 will focus on webmapping with Leaflet, a free and open-source code library. However, no prior coding experience is necessary and geospatial novices are welcome.
 
-This is a beginner-level workshop intended for anyone interested in making interactive maps. Participants will first be introduced to the concept of a web map and shown the various tools and platforms available for web mapping. A hands-on section will follow, in which participants will explore the code that powers a web map and customize it to make a web map of their very own. 
 
 Link to workshop:  [https://ubc-library-rc.github.io/gis-webmapping/](https://ubc-library-rc.github.io/gis-webmapping/)
 
