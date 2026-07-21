@@ -64,7 +64,7 @@ Below are examples of webmap made with uMap, Google MyMaps, and Leaflet.
 
 <br>
 
-<iframe src=".content/reference/leaflet-example.html" style="width:100%; height:520px; border:none;"> </iframe>
+<iframe src="./content/reference/leaflet-example.html" style="width:100%; height:520px; border:none;"> </iframe>
 <sub>[View in Full Screen](./reference/leaflet-example.html){:target="_blank"}</sub> 
 
 
