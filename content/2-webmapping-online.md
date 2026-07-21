@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Part 1 - Webmapping Online
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 # Online Platforms for Web Mapping

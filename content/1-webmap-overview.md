@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is a web map?
-nav_order: 1
+nav_order: 2
 ---
 # What is a web map? 
 {: .no_toc}
